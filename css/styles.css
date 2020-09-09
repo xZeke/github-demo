@@ -1,0 +1,63 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 100%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  --purple: #7c39bf;
+  --dark-purple: #280749;
+  --blue: #00d0fe;
+
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--dark-purple);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 10px 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 3000px;
+}
+
+#logo {
+  width: 200px;
+}
+
+#names-list {
+  font-size: 1.5rem;
+}
