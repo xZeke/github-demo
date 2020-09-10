@@ -43,4 +43,10 @@ export const contributors = [
     name: 'Nervith',
     githubProfile: 'https://github.com/Nervith'
   }
+  ,
+  {
+    name: 'Hakim Amar',
+    githubProfile: 'https://github.com/AmarHakim'
+  }
+  
 ]
