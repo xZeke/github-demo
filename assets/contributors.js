@@ -10,5 +10,17 @@ export const contributors = [
   {
     name: 'Eren Sulutas',
     githubProfile: 'https://github.com/esulu'
+  },
+  {
+    name: 'Siddharth Natamai',
+    githubProfile: 'https://github.com/sidbmw/'
+  },
+  {
+    name: 'Donaldlau8',
+    githubProfile: 'https://github.com/Donaldlau8'
+  },
+  {
+    name: 'Nervith',
+    githubProfile: 'https://github.com/Nervith'
   }
 ]
